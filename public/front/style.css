@@ -1,0 +1,597 @@
+/* navbar */
+.navbar {
+    background-color: #f8f9fa;
+}
+.navbar-nav a {
+    color: #000000;
+}
+.navbar-nav a:hover {
+    font-size: 15px;
+    color: #139e55;
+}
+.navbar-img {
+    width: 165px;
+    height: auto;
+    margin: 0 10px;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+.navbar-img:hover {
+    transform: scale(1.1);
+}
+.btn-outline-dark {
+        border-color: #139e55; /* Warna border hitam */
+        background-color: #139e55; /* Warna latar belakang hijau */
+        color: white; /* Warna teks putih untuk kontras */
+        padding: 5px 25px; /* Padding dalam tombol */
+        border-width: 1px; /* Ketebalan border */
+        border-style: solid; /* Gaya border solid */
+        border-radius: 5px; /* Sudut border melengkung */
+        cursor: pointer; /* Pointer saat hover */
+        font-size: 16px; /* Ukuran font */
+}
+.btn-outline-dark:hover {
+    color: #139e55;
+    outline: 2px solid #139e55;
+    background-color: #f8f9fa;
+    border-color: #139e55;
+}
+
+/* carousel */
+.carousel-item img {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    filter: brightness(70%) contrast(70%);
+    width: auto;
+    height: 600px;
+}
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: auto;
+    }
+}
+.carousel-caption {
+    position: absolute;
+    top: 52%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+/* layanan */
+.bg-transparent h1 {
+    color: #139e55;
+    font-weight: bold;
+}
+.bg-transparent b {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #139e55;
+}
+.pisi h5 {
+    color: #139e55;
+    font-weight: bold;
+}
+.pisi img {
+    width: auto;
+    height: 150px;
+}
+@media (max-width: 768px) {
+    .bg-transparent h1 {
+        font-weight: bold;
+        text-align: center;
+    }
+    .bg-transparent b {
+        color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #139e55;
+        text-align: center;
+    }
+    .pisi img {
+        height: 100px;
+        display: block;
+        margin-left: 40px;
+    }
+    .pisi h5 {
+        text-align: center;
+        margin-right: 100px;
+    }
+    .pisi p {
+        text-align: center;
+        margin-right: 100px;
+    }
+}
+
+/* alasan */
+.bg-success h1 {
+    font-weight: bold;
+}
+.bg-success b {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+}
+.aisi h5 {
+    font-weight: bold;
+}
+.aisi img {
+    width: auto;
+    height: 150px;
+}
+@media (max-width: 768px) {
+    .bg-success h1 {
+        font-weight: bold;
+        text-align: center;
+    }
+    .bg-success b {
+        color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #ffffff;
+        text-align: center;
+    }
+    .aisi img {
+        height: 100px;
+        display: block;
+        margin-left: 90px;
+    }
+    .aisi h5 {
+        text-align: center;
+    }
+    .aisi p {
+        text-align: center;
+    }
+}
+
+/* donasi */
+.djudul h1 {
+    color: #139e55;
+    font-weight: bold;
+}
+.djudul b {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #139e55;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.donasi .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+    filter: brightness(100%) contrast(100%);
+}
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+}
+.card-body {
+    padding: 1.25rem;
+}
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item {
+        padding: 0 5px;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+.program .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+    filter: brightness(100%) contrast(100%);
+}
+
+/* artikel */
+.artikel .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+    filter: brightness(100%) contrast(100%);
+}
+
+/* detail donasi */
+.detail h1 {
+    color: #139e55;
+    text-transform: capitalize;
+}
+.detail .carousel-item img {
+    width: 100%;
+    height: auto;
+    filter: brightness(100%) contrast(100%);
+}
+.thumbnail {
+    height: 550px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
+@media (max-width: 768px) {
+    .thumbnail {
+        height: 380px;
+        padding: 15px;
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+    }
+}
+.nav-item a:hover {
+    color: #139e55;
+}
+.nav-link {
+    color: black;
+}
+.nav-link.active {
+    color: green !important;
+}
+
+#rentyour {
+
+    h1 {
+        color: #139e55;
+    }
+    hr {
+        border: none;
+        height: 5px;
+        background-color: #000000;
+    }
+    img {
+        width: 150px;
+    }
+}   
+
+.col.text-right .follow i {
+    font-size: 3em !important;
+    color: #139e55;
+}
+
+.col.text-left .font-sm.font-medium i {
+    color: #139e55;
+}
+
+#city {
+    h1 {
+        color: #139e55;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.bg {
+    background-image: url(../front/images/background-donasi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%        ;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+.thumbnail {
+    border: 2px solid #000; /* Mengatur border dengan ketebalan 2px dan warna hitam */
+    padding: 15px; /* Menambahkan padding agar konten di dalam tidak menempel pada border */
+    border-radius: 5px; /* Membuat sudut border menjadi sedikit melengkung */
+}
+
+.footer hr {
+    border: none;
+        height: 5px;
+        background-color: #000000;
+}
+
+
+    
+
+#pesan_donatur {
+    .comments-container {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+    }
+
+    .comments-container h3 {
+        margin-bottom: 20px;
+        text-align: center;
+        color: #333;
+    }
+
+    .comment {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin-bottom: 10px;
+        background-color: #fff;
+        border: 1px solid #e1e1e1;
+        border-radius: 5px;
+    }
+
+    .comment-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .comment-user-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comment-user-info strong {
+        font-size: 14px;
+        color: #333;
+    }
+
+    .comment-time {
+        font-size: 12px;
+        color: #777;
+    }
+
+    .comment-body {
+        font-size: 14px;
+        color: #555;
+    }
+
+    .donation-amount {
+        margin-top: 10px;
+        font-weight: bold;
+        color: #000;
+    }
+}
+
+#donasiCarousel .carousel-control-prev-icon,
+#donasiCarousel .carousel-control-next-icon {
+    background-color: black;
+}
+
+#donasiCarousel {
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: auto;
+        height: auto;
+        z-index: 10;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .carousel-control-next {
+        right: 0;
+    }
+}
+
+#artikelCarousel .carousel-control-prev-icon,
+#artikelCarousel .carousel-control-next-icon {
+    background-color: black;
+}
+
+#artikelCarousel {
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: auto;
+        height: auto;
+        z-index: 10;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .carousel-control-next {
+        right: 0;
+    }
+}
+
+#programCarousel .carousel-control-prev-icon,
+#programCarousel .carousel-control-next-icon {
+    background-color: black;
+}
+
+#porgramCarousel {
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: auto;
+        height: auto;
+        z-index: 10;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .carousel-control-next {
+        right: 0;
+    }
+}
+
+#profil {
+    h1 {
+        color: #139e55;
+    }
+    p {
+        text-align: justify;
+    }
+    .img-fluid {
+        width: 70%; /* Ubah ukuran lebar sesuai kebutuhan */
+        height: 70%; /* Ubah ukuran tinggi sesuai kebutuhan */
+        object-fit: cover; /* Menjaga rasio aspek gambar */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        filter: brightness(100%) contrast(100%);
+    }
+    @media (max-width: 768px) {
+        .img-fluid {
+            width: 100%; /* Ubah ukuran lebar sesuai kebutuhan */
+            height: 100%; /* Ubah ukuran tinggi sesuai kebutuhan */
+            object-fit: cover; /* Menjaga rasio aspek gambar */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            filter: brightness(100%) contrast(100%);
+        }
+    }
+    .a4-size {
+        width: 100%; /* Ensure it is responsive */
+        max-width: 210mm; /* Max width to A4 width */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+#visimisi {
+    background-color: #139e55;
+
+    p {
+        text-align: center;
+    }
+    
+    h1,h3,p {
+        color: #ffffff;
+    }
+    hr {
+        border: none;
+        height: 5px;
+        background-color: #ffffff;
+    }
+    img {
+        width: 150px;
+    }
+    li {
+        color: #ffffff;
+        text-align: left;
+    }
+    .list-numbered {
+        list-style-type: disc; /* Menggunakan titik hitam */
+    }
+    
+}
+
+#programCarousel .carousel-control-prev-icon,
+#programCarousel .carousel-control-next-icon {
+    background-color: black;
+}
+
+#porgramCarousel {
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: auto;
+        height: auto;
+        z-index: 10;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .carousel-control-next {
+        right: 0;
+    }
+}
+
+#bukti {
+    .receipt {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .receipt-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .receipt-details {
+        margin-bottom: 20px;
+    }
+
+    .receipt-details h5 {
+        margin: 0 0 10px;
+    }
+
+    .receipt-details p {
+        margin: 0;
+    }
+
+    .receipt-footer {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+#artikel {
+    p {
+        text-align: justify;
+    }
+    .img-fluid.custom-size {
+        width: 60%; /* Ubah ukuran lebar sesuai kebutuhan */
+        height: 60%; /* Ubah ukuran tinggi sesuai kebutuhan */
+        object-fit: cover; /* Menjaga rasio aspek gambar */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        filter: brightness(100%) contrast(100%);
+    }
+    @media (max-width: 768px) {
+        .img-fluid.custom-size {
+            width: 100%; /* Ubah ukuran lebar sesuai kebutuhan */
+            height: 100%; /* Ubah ukuran tinggi sesuai kebutuhan */
+            object-fit: cover; /* Menjaga rasio aspek gambar */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            filter: brightness(100%) contrast(100%);
+        }
+    }
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Atur sesuai dengan tinggi yang diinginkan */
+}
+
